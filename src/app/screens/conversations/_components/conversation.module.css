@@ -1,10 +1,11 @@
 .conversation {
-    display: flex;
-    background-color: rgba(0,0,0,0.1);
-    flex-direction: column;
-    width: 100%;
-    overflow: hidden;
-    padding: 16px;
-    box-sizing: border-box;
-    border-radius: 16px;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: none;
 }

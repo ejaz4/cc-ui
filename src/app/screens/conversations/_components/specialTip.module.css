@@ -1,0 +1,32 @@
+.container {
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+  background: color(display-p3 1 1 1);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 4px 0px color(display-p3 0 0 0 / 0.25);
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.stripe {
+  width: 8px;
+  align-self: stretch;
+  background: linear-gradient(180deg, #ff00e4 0%, #e95cff 100%);
+  background: linear-gradient(
+    180deg,
+    color(display-p3 1 0 0.8667) 0%,
+    color(display-p3 0.849 0.3958 1) 100%
+  );
+}
+
+.content {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+}

@@ -1,7 +1,13 @@
 .screen {
-    padding: 16px;
-    padding-top: 64px;
-    display: flex;
-    gap: 16px;
-    flex-direction: column;
+  padding: 16px;
+  padding-top: 64px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
