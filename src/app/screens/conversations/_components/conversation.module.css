@@ -4,6 +4,7 @@
   flex-direction: column;
   width: 100%;
   overflow: hidden;
+  gap: 8px;
   padding: 16px;
   box-sizing: border-box;
   border-radius: 12px;

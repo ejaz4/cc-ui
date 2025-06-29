@@ -84,7 +84,7 @@ export const Conversation = ({
     return (
       <button className={styles.conversation}>
         {/* <div className="conversation-header"> */}
-        <p>{whatHappenedText}</p>
+        <p>{figureRandom}</p>
         <Skeleton width={"100%"} height={16} />
         {/* </div> */}
       </button>
@@ -93,10 +93,10 @@ export const Conversation = ({
 
   return (
     <button onClick={() => playExtracts()} className={styles.conversation}>
-      <div className="conversation-header">
-        {/* <img src={profileImage} alt={`${senderName}'s profile`} className="profile-image" /> */}
+      {/* <div className="conversation-header">
+        <img src={profileImage} alt={`${senderName}'s profile`} className="profile-image" />
         <h2 className="sender-name">{senderName}</h2>
-      </div>
+      </div> */}
       <div className="conversation-content">
         <p>{summary}</p>
       </div>
