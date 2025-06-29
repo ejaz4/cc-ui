@@ -97,9 +97,8 @@ export const Conversation = ({
         <img src={profileImage} alt={`${senderName}'s profile`} className="profile-image" />
         <h2 className="sender-name">{senderName}</h2>
       </div> */}
-      <div className="conversation-content">
-        <p>{summary}</p>
-      </div>
+      <p>{summary}</p>
+      <p style={{ fontSize: 12, opacity: "0.5" }}>Tap to listen</p>
     </button>
   );
 };

@@ -21,7 +21,7 @@ export const ConversationsScreen = () => {
       <h1>What happened?</h1>
       <SpecialTip
         title="Still generating"
-        description="These conversations were not sent to the server. You can still listen to the audio and review the summaries."
+        description="We're still working on recalling some events and notifications. You can still listen to the audio and review the summaries."
       />
       <div className={screenStyles.list}>
         {conversationIDs.map((id, index) => (
